@@ -39,6 +39,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - uses: actions/upload-artifact@v2
         with:
-          name: build-artifact
+          name: release-agweriapay-mpesa-${{ matrix.node }}
           path: dist/*
           retention-days: 90

@@ -33,6 +33,6 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: build-artifact
+          name: build-agweriapay-mpesa-${{ matrix.node }}
           path: dist
-          retention-days: 90
+          retention-days: 15

@@ -1,0 +1,42 @@
+{
+  "name": "@agweriapay/mpesa",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "MPESA integration API package for NodeJS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/agweriapay/mpesa-node",
+  "author": "Samuel Dervis <sam@agweria.com>",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mpesa",
+    "nodejs",
+    "node",
+    "mobile money",
+    "api",
+    "typescript",
+    "agweriapay",
+    "agweria"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx} --quiet "
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^15.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.3.2"
+  }
+}
